@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-container{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(image/background.png);
+    background-size: cover;
+    
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 30px;
+}
+.font-one{
+    font-family: "Sacramento", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 50px;
+    color: #3825DA;
+    font-weight: normal;
+}
+.profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    max-width: 40%;
+}
+.para-one{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    margin: auto;
+    width: 40%;
+    padding: 30px;
+}
+.typing-cat{
+    max-width: 20%;
+}
+.text-info{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+}
+.typing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding-bottom: 2%;
+}
+.title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.leader-cat{
+    width: 380px;
+    height: 250px;
+    object-fit: cover;
+}
+.name-title
+{
+    padding-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 1rem;
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+.contact{
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10%;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.touch{
+    font-size: 45px;
+}
+.infoo{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.btn{
+    padding:0.6em 2em;
+    border-radius: 8px;
+    color:#fff;
+    background-color:#1976d2;
+    font-size:1.1em;
+    border:0;
+    cursor:pointer;
+    margin:1em;
+    text-decoration: none;
+}
